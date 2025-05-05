@@ -1,0 +1,18 @@
+name: 'PR Title Linter'
+description: 'Lint pull request titles using commitlint'
+author: 'EnerCloud Consulting Pty Ltd'
+inputs:
+  config:
+    description: 'Path to commitlint config file'
+    required: false
+    default: '@commitlint/config-conventional'
+outputs:
+  valid:
+    description: 'Whether the PR title is valid'
+    value: ${{ steps.lint.outputs.valid }}
+runs:
+  using: 'node22'
+  main: 'dist/index.js'
+branding:
+  icon: 'check-circle'
+  color: 'green' 
