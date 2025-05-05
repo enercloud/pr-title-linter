@@ -11,7 +11,7 @@ outputs:
     description: 'Whether the PR title is valid'
     value: ${{ steps.lint.outputs.valid }}
 runs:
-  using: 'node22'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'check-circle'
