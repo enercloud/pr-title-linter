@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: enercloud/pull-request-title-linterer@v1
+      - uses: enercloud/pull-request-title-linterer@v0.1.0
         with:
           config: '@commitlint/config-conventional'  # Optional, defaults to conventional config
 ```
