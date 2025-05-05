@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: enercloud/pr-title-linter@v1
+      - uses: enercloud/pull-request-title-linter@v1
         with:
           config: '@commitlint/config-conventional' 

@@ -1,5 +1,5 @@
 {
-  "name": "pr-title-linter",
+  "name": "pull-request-title-linter",
   "version": "1.0.0",
   "description": "GitHub Action to lint pull request titles using commitlint",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enercloud/pr-title-linter.git"
+    "url": "git+https://github.com/enercloud/pull-request-title-linter.git"
   },
   "keywords": [
     "github-actions",
