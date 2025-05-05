@@ -1,4 +1,4 @@
-name: 'PR Title Linter'
+name: 'Pull Request Title Linter'
 description: 'Lint pull request titles using commitlint'
 author: 'EnerCloud Consulting Pty Ltd'
 inputs:
